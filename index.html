@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://fav.farm/🔥" />
+</head>
+<body>
+
+
+  <div class="keys">
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">crash</span>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound">china</span>
+    </div>
+    <div data-key="72" class="key">
+      <kbd>H</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div data-key="74" class="key">
+      <kbd>J</kbd>
+      <span class="sound">PING</span>
+    </div>
+    <div data-key="75" class="key">
+      <kbd>K</kbd>
+      <span class="sound">tom</span>
+    </div>
+    <div data-key="76" class="key">
+      <kbd>L</kbd>
+      <span class="sound">cowbell</span>
+    </div>
+  </div>
+
+  <audio data-key="65" src="drum-sounds/crash.wav"></audio>
+  <audio data-key="83" src="drum-sounds/hi-hat1.wav"></audio>
+  <audio data-key="68" src="drum-sounds/metal-kick.wav"></audio>
+  <audio data-key="70" src="drum-sounds/china-cymbal.wav"></audio>
+  <audio data-key="72" src="drum-sounds/ride.wav"></audio>
+  <audio data-key="74" id="nasty-ping" src="drum-sounds/grind-snare.wav"></audio>
+  <audio data-key="75" src="drum-sounds/tom1.wav"></audio>
+  <audio data-key="76" src="drum-sounds/cowbell.wav"></audio>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
